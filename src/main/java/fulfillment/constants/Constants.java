@@ -75,8 +75,8 @@ public class Constants {
 1. Branch/Plant
 2. On Hand
 3. Secondary On Hand
-4. Commited
-5. Secondary Commited
+4. Committed
+5. Secondary Committed
 6. Available
 7. On Receipt
 8. SecondaryOn Receipt
