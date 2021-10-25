@@ -57,8 +57,8 @@ public class Post implements Interaction {
         System.out.println(Color.BLUE + Constants.INDENTATION + "POST ProStarShipmentsSHIPPED Status Code: " + Color.RESET + statusCode);
         utils.format(lastResponse().body().asPrettyString());
 
-        //if (statusCode != 200) {
-        //    System.exit(1);
-        //}
+        if (statusCode != 200) {
+            System.exit(1);
+        }
     }
 }

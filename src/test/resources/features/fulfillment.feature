@@ -18,10 +18,10 @@ Feature: Fulfillment Process
     And ship confirmation through JDE UI - R5547500
     And obtain order information
 
+
     Examples:
       | order     |
-      | 161487338 |
-
+      | 161501591 |
 
 
   #1. Order Creation Verification:

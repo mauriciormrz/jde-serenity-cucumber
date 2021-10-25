@@ -53,9 +53,10 @@ public class Get implements Interaction {
 
         int statusCode = lastResponse().statusCode();
         System.out.println(Color.BLUE + Constants.INDENTATION + "GET ProStarWH85Shipments    " + Color.RESET + "Status Code: " + statusCode);
-
-        //if (statusCode != 200) {
         utils.format(lastResponse().body().asPrettyString());
-        //}
+
+        if (statusCode != 200) {
+            System.exit(1);
+        }
     }
 }
